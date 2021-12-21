@@ -1,0 +1,30 @@
+.page {
+  width: 70%;
+  margin: auto;
+}
+
+.pageHeader {
+  padding: 20px 0px;
+  font-style: italic;
+}
+
+.addFriendDiv {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.deleteDiv {
+  margin-right: 10px;
+}
+
+.deleteButton {
+  padding: 11px 10px;
+  border: none;
+  background-color: rgb(255, 50, 50);
+  color: white;
+  border-radius: 4px;
+}
+
+.deleteButton:hover {
+  opacity: 0.7;
+}

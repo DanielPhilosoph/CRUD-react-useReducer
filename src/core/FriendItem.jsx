@@ -10,8 +10,7 @@ export default function FriendItem({ name, lastName, age, id }) {
 
   const onFinishedEditing = (event) => {
     const target = event.target;
-    console.log(target.dataset.field);
-    console.log(target.innerText);
+
     if (target.innerText !== "") {
       // If age and not a number or smaller then 0 then do nothing
       if (

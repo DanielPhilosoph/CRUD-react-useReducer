@@ -10,9 +10,10 @@ export default function Page() {
   return (
     <div className="page">
       <div>
-        <h2 className="pageHeader">My friends:</h2>
+        <h2 className="pageHeader">My friends</h2>
       </div>
       <div className="addFriendDiv">
+        <hr />
         <AddFriendForm />
       </div>
       <div className="friendsDiv">

@@ -5,7 +5,6 @@ import { mainContext } from "../context/StateProvider";
 
 export default function NavBar() {
   const { friendsState } = useContext(mainContext);
-  console.log(friendsState);
   return (
     <Navbar bg="dark" variant="dark">
       <Container>

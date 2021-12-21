@@ -4,7 +4,9 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { mainContext } from "../context/StateProvider";
 
 export default function NavBar() {
+  //? Access the state via context provider
   const { friendsState } = useContext(mainContext);
+
   return (
     <Navbar bg="dark" variant="dark">
       <Container>

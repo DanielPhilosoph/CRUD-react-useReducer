@@ -4,6 +4,7 @@ import { ListGroup, Badge } from "react-bootstrap";
 import { mainContext } from "../context/StateProvider";
 
 export default function FriendItem({ name, lastName, age, id }) {
+  //? Access the state via context provider
   const { dispatch } = useContext(mainContext);
 
   let prevValue;

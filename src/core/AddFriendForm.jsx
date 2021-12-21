@@ -7,6 +7,7 @@ export default function AddFriendForm() {
   const firstName = useRef();
   const lastName = useRef();
   const age = useRef();
+  //? Access the state via context provider
   const { dispatch } = useContext(mainContext);
 
   const onAddClick = () => {

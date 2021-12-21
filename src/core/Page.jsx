@@ -6,7 +6,9 @@ import AddFriendForm from "./AddFriendForm";
 import FriendItem from "./FriendItem";
 
 export default function Page() {
+  //? Access the state via context provider
   const { friendsState } = useContext(mainContext);
+
   return (
     <div className="page">
       <div>
